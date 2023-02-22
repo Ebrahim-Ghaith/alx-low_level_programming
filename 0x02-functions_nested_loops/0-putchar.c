@@ -1,6 +1,6 @@
 /*
  * File: 0-holberton.c
- * Auth: Brennan D Baraban
+ * Auth: ebrahim ghaith
  *
  */
 #include "main.h"
