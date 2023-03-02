@@ -1,5 +1,5 @@
 #include "main.h"
-#iclude <stdio.h>
+#include <stdio.h>
 /**
   * _strncpy - Copy a string
   * @dest: The destination value
