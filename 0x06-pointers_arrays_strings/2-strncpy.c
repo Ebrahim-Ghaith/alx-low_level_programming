@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
   * _strncpy - Copy a string
   * @dest: The destination value
@@ -10,23 +11,23 @@
   */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int x = 0, len = 0;
+	int a = 0, b = 0;
 
-	while (src[len])
+	while (src[b])
 	{
-		len++;
+		b++;
 	}
 
-	while (x < n && src[x])
+	while (a < n && src[a])
 	{
-		dest[x] = src[x];
+		dest[a] = src[a];
 		a++;
 	}
 
-	while (x < n)
+	while (a < n)
 	{
-		dest[x] = '\0';
-		x++;
+		dest[a] = '\0';
+		a++;
 	}
 
 	return (dest);
