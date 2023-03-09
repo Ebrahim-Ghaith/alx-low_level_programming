@@ -7,7 +7,7 @@
   * Return: length of string.
   */
 
-void _print_rev_recursion(char *s)
+void _strlen_recursion(char *s)
 {
 	int len;
 	if (*s == '\0')
@@ -17,6 +17,6 @@ void _print_rev_recursion(char *s)
 
 	s++;
 	len++;
-	_print_rev_recursion(s);
+	_strlen_recursion(s);
 	return (len);
 }
