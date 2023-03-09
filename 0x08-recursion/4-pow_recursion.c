@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * factorial - get power of a given number
+ * factorial : get power of a given number
  * @x: number of base
  * @y : number of power level
  *
