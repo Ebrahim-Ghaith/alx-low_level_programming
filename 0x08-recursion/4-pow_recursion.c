@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-  * factorial - get power of a given number
-  * @x: number of base 
-  * @y : number of power level
-  *
-  * Return: power of number.
-  */
+ * factorial - get power of a given number
+ * @x: number of base
+ * @y : number of power level
+ *
+ * Return: power of number.
+ */
 
 int _pow_recursion(int x, int y)
 {
@@ -19,5 +19,5 @@ int _pow_recursion(int x, int y)
 		return (1);
 	}
 	else
-		return (x * _pow_recursion(x,y-1) );
+		return (x * _pow_recursion(x,y-1));
 }
