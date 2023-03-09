@@ -2,10 +2,11 @@
 
 /**
   * factorial - get factorial of a given number
-  * @n: number of factorial
+  * @n: number of factorial 
   *
   * Return: factorial of number.
   */
+
 int factorial(int n)
 {
 	if (n < 0)
@@ -17,5 +18,5 @@ int factorial(int n)
 		return (1);
 	}
 	else
-		return (n * factorial(n - 1));
+		return (n * factorial(n - 1) );
 }
