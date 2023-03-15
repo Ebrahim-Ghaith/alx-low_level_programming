@@ -1,7 +1,5 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
   * main - Prints the sum of args positive numbers
@@ -12,35 +10,23 @@
   */
 int main(int argc, char *argv[])
 {
-	int i;
-	unsigned int k, sum = 0;
-	char *e;
+	int num, digit, sum = 0;
 
-	if (argc > 1)
+	for (num = 1; num < argc; num++)
 	{
-		for (i = 1; i < argc; i++)
+		for (digit = 0; argv[num][digit]; digit++)
 		{
-			e = argv[i];
-
-			for (k = 0; k < strlen(e); k++)
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
 			{
-				if (e[k] < 48 || e[k] > 57)
-				{
-					printf("Error\n");
-					return (1);
-				}
+				printf("Error\n");
+				return (1);
 			}
-
-			sum += atoi(e);
-			e++;
 		}
 
-		printf("%d\n", sum);
+		sum += atoi(argv[num]);
 	}
-	else
-	{
-		printf("0\n");
-	}
+
+	printf("%d\n", sum);
 
 	return (0);
 }
