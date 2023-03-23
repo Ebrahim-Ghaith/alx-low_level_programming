@@ -1,5 +1,6 @@
 #include <stdarg.h>
-#include "main.h"
+#include "variadic_functiost.h"
+
 /**
  * function - get sum of all its parameters
  * @n: number of parameters
