@@ -20,6 +20,6 @@ unsigned int result = 0;
         }
     }
     return result;
-}
+
 
 }
