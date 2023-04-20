@@ -10,22 +10,19 @@ int main(void)
 	int x = 48;
 	int y = 44;
 	int z = 32;
-	int t = 36;
 
-	while (x < 58)
+	while (x <= 57)
 	{
+
+		putchar(x);
 		if (x == 57)
 		{
-			putchar(x);
-			putchar(t);
+			break;
 		}
-		else
-		{
-			putchar(x);
-			putchar(y);
-			putchar(z);
-		}
+		putchar(y);
+		putchar(z);
 		x++;
 	}
+	putchar('\n');
 	return (0);
 }
