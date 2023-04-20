@@ -25,7 +25,7 @@ int main(void)
 			putchar(y);
 			putchar(z);
 		}
-		x++
+		x++;
 	}
 	return (0);
 }
