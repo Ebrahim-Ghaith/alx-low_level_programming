@@ -10,12 +10,14 @@ int main(void)
 	int x = 48;
 	int y = 44;
 	int z = 32;
+	int t = 36;
 
 	while (x < 58)
 	{
 		if (x == 57)
 		{
 			putchar(x);
+			putchar(t);
 		}
 		else
 		{
@@ -25,5 +27,6 @@ int main(void)
 		}
 		x++;
 	}
+	putchar('\n');
 	return (0);
 }
