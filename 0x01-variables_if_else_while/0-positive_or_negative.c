@@ -5,10 +5,9 @@
 /**
  * main - output tell us that number is
  *       postive , zero ,negative
- * @n: random number
  * Return: nothing
  */
-int main(void)
+int main()
 {
 	int n;
 
