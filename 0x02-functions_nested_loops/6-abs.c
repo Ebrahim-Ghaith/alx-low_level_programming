@@ -2,7 +2,8 @@
 
 /**
  * _abs(int) - that computes the absolute value of an integer
- * result : absolute of number;
+ * @x: number for absolute
+ * Return : absolute of number;
  */
 
 int _abs(int x)
