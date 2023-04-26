@@ -11,18 +11,17 @@
 void rev_string(char *s)
 {
 	int len = 0;
-	char x;
+	int index;
+	char tmp;
 
-	while (*s)
+	while (s[len])
 	{
-		s++;
 		len++;
 	}
-	while (len)
+	for (index = len - 1; index >= len / 2; index--)
 	{
-		len--;
-		x = s[len];
-		printf("%c",x);
+		tmp = s[index];
+		s[index] = s[len - index - 1];
+		s[len - index - 1] = tmp;
 	}
-	printf("%c",x);
 }
