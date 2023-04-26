@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _puts2 - prints a 2 char string, followed by a new line
+ * puts2 - prints a 2 char string, followed by a new line
  * @str: input string
  * Return: nothing
  */
