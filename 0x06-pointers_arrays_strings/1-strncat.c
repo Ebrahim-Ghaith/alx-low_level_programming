@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - ppends the src string to the dest string
+ * _strncat - ppends the src string to the dest string
  * @dest: destination char
  * @src: source char
  * @n: bytes from src
@@ -13,8 +13,8 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int index_1 = 0;
 	int index_2 = 0;
-	n = n / 8;
 
+	n = n / 8;
 	while (dest[index_1])
 	{
 		index_1++;
